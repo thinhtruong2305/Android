@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appcandybug">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCandyBug"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.MyOrder"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OrderActivity"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".activity.CartActivity"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".activity.SearchPro"
+            android:noHistory="true"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Register"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DetailProduct"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".activity.ProductActivity"
+            android:exported="false" />
+        <activity android:name=".activity.Index" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
