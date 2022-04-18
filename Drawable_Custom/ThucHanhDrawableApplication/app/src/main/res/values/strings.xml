@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ThucHanhDrawableApplication</string>
+    <string name="text_title">Information form</string>
+    <string name="hint_hoVaTen">Input full name</string>
+    <string name="hint_email">Input email</string>
+    <string name="hint_soDienThoai">Input phone number</string>
+    <string name="text_xacNhan">Comfirm</string>
+    <string name="text_chaoBan">Hello</string>
+    <string name="text_email" translatable="false">Email</string>
+    <string name="text_soDienThoai">Phone number</string>
+</resources>

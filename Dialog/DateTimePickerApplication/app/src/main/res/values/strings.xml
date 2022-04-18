@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DateTimePickerApplication</string>
+    <string name="text_pick_date">Chọn ngày</string>
+</resources>

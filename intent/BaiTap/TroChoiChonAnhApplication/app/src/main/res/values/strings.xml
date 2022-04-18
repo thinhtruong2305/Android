@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TroChoiChonAnhApplication</string>
+    <string-array name="listName">
+        <item>pandoru1</item>
+        <item>pandoru2</item>
+        <item>pandoru3</item>
+        <item>pandoru4</item>
+        <item>pandoru5</item>
+        <item>pandoru6</item>
+        <item>pandoru7</item>
+        <item>pandoru8</item>
+        <item>pandoru9</item>
+        <item>pandoru10</item>
+        <item>pandoru11</item>
+        <item>pandoru12</item>
+        <item>pandoru13</item>
+        <item>pandoru14</item>
+    </string-array>
+</resources>

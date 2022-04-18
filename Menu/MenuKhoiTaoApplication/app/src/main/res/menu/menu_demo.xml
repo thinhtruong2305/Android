@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Find"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:id="@+id/menuFind"/>
+    <item
+        android:title="Setting"
+        android:orderInCategory="2"
+        android:id="@+id/menuSetting"/>
+    <item
+        android:title="Share"
+        android:orderInCategory="1"
+        android:id="@+id/menuShare"/>
+    <item
+        android:title="Contact"
+        android:orderInCategory="3"
+        android:id="@+id/menuContact">
+        <menu>
+            <item
+                android:title="Email"
+                android:id="@+id/menuChildContactEmail"/>
+            <item
+                android:id="@+id/menuChildContactPhone"
+                android:title="Phone"/>
+        </menu>
+    </item>
+</menu>

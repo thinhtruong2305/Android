@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/kurumi_icon"
+            android:gravity="center"/>
+    </item>
+    <item android:bottom="350dp" android:left="350dp">
+        <bitmap android:src="@drawable/ahri_icon"
+            android:gravity="center"/>
+    </item>
+</layer-list>

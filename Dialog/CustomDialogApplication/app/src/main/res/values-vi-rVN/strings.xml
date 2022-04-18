@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CustomDialogApplication</string>
+    <string name="text_user_name">Tài khoản</string>
+    <string name="text_password">Mật khẩu</string>
+    <string name="text_login">Đăng nhập</string>
+    <string name="text_cancel">Hủy</string>
+    <string name="text_login_success">Đăng nhập thành công</string>
+    <string name="text_login_fail">Đăng nhập thất bại</string>
+</resources>
